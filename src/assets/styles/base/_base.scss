@@ -1,36 +1,8 @@
 @use '@/assets/styles/abstract/colors' as colors;
-@use '@/assets/styles/abstract/fonts' as fonts;
 
 body {
-  font-family: fonts.$font-family-common;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background: radial-gradient(colors.$color-genoa, colors.$color-tiber);
-  color: colors.$color-aqua-haze;
   min-height: 100vh;
-}
-
-header p {
-  font-size: fonts.$font-size-small;
-  margin: 0;
-  text-align: center;
-  color: colors.$color-mint-tulip;
-}
-
-h1 {
-  font-family: fonts.$font-family-title;
-  font-size: fonts.$font-size-extra-large;
-  text-align: center;
-  text-transform: uppercase;
-  color: colors.$color-skeptic;
-  text-shadow: 0 0 4px rgba(colors.$color-mine-shaft, 0.4);
-  margin: 0;
-
-  & em {
-    font-style: normal;
-    color: colors.$color-aqua;
-  }
 }
 
 #content {

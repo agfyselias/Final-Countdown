@@ -1,0 +1,24 @@
+@use '@/assets/styles/abstract/colors' as colors;
+@use '@/assets/styles/abstract/fonts' as fonts;
+
+body {
+  font-family: fonts.$font-family-primary;
+  color: colors.$color-aqua-haze;
+}
+
+header p {
+  font-size: fonts.$font-size-sm;
+  color: colors.$color-mint-tulip;
+}
+
+
+h1 {
+  font-family: fonts.$font-family-secondary;
+  font-size: fonts.$font-size-xl;
+  color: colors.$color-skeptic;
+  text-shadow: 0 0 4px rgba(colors.$color-mine-shaft, 0.4);
+
+  & em {
+    color: colors.$color-aqua;
+  }
+}

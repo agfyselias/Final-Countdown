@@ -1,6 +1,6 @@
 import { useRef, useState, type RefObject } from "react";
 import ResultModal from "../ResultsModal/ResultsModal";
-import type { TimerChallengeNameEnum } from "../../utilities/enums/TimerChallenge.enum";
+import type { TimerChallengeNameEnum } from "../../enums/TimerChallenge.enum";
 import classes from './TimerChallenge.module.scss';
 
 function TimerChallenge(props: {
