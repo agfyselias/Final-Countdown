@@ -1,8 +1,8 @@
+@use '@/assets/styles/abstract/animations' as *;
 @use '@/assets/styles/abstract/colors' as colors;
 @use '@/assets/styles/abstract/fonts' as fonts;
 
 .results-modal {
-  border: none;
   border-radius: 8px;
   padding: 2rem;
   background-color: colors.$color-foam;
@@ -17,8 +17,8 @@
   }
 
   &__title {
-    font-family: fonts.$font-family-title;
-    font-size: fonts.$font-size-large;
+    font-family: fonts.$font-family-secondary;
+    font-size: fonts.$font-size-lg;
     margin: 0 0 0.25rem 0;
     text-transform: uppercase;
   }
@@ -26,13 +26,12 @@
   & progress {
     width: 100%;
     height: 1.5rem;
-    margin: 0;
     accent-color: colors.$color-puerto-rico;
   }
 
   & p {
     margin: 0.5rem 0;
-    font-size: fonts.$font-size-small;
+    font-size: fonts.$font-size-sm;
 
     & strong {
       color: colors.$color-eden;
@@ -44,14 +43,12 @@
   }
 
   &__close-button {
+    font-size: fonts.$font-size-sm;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    border: none;
     border-radius: 4px;
     background-color: colors.$color-gable-green;
     color: colors.$color-white-ice;
-    font-size: fonts.$font-size-small;
-    cursor: pointer;
 
     &:hover {
       background-color: colors.$color-palm-green;

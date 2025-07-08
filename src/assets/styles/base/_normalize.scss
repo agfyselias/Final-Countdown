@@ -5,4 +5,33 @@
   margin: 0;
   box-sizing: border-box;
   border: none;
+  outline: none;
+  background: transparent;
+  background-color: transparent;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+
+  & em {
+    font-style: normal;
+  }
+}
+
+header p {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
 }

@@ -1,7 +1,7 @@
 import Player from './components/Player/Player';
 import TimerChallenge from './components/TimerChallenge/TimerChallenge';
-import type { ITimerChallenge } from './utilities/interfaces/TimerChallenge.interface';
-import { TIMER_CHALLENGES } from './utilities/mocks/TimerChallenges.mock';
+import type { ITimerChallenge } from './interfaces/TimerChallenge.interface';
+import { TIMER_CHALLENGES } from './mocks/TimerChallenges.mock';
 import classes from './App.module.scss';
 
 function App() {
