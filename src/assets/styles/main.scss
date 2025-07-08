@@ -1,7 +1,7 @@
-@import './abstract/variables';
+// @import './abstract/variables';
 
-@import './abstract/animations';
-@import './abstract/fonts';
+@use './abstract/animations';
+// @import './abstract/fonts';
 
-@import './base/base';
-@import './base/normalize';
+@use './base/base';
+@use './base/normalize';

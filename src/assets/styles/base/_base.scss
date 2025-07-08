@@ -1,32 +1,35 @@
+@use '@/assets/styles/abstract/colors' as colors;
+@use '@/assets/styles/abstract/fonts' as fonts;
+
 body {
-  font-family: $font-family-common;
+  font-family: fonts.$font-family-common;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient($color-genoa, $color-tiber);
-  color: $color-aqua-haze;
+  background: radial-gradient(colors.$color-genoa, colors.$color-tiber);
+  color: colors.$color-aqua-haze;
   min-height: 100vh;
 }
 
 header p {
-  font-size: $font-size-small;
+  font-size: fonts.$font-size-small;
   margin: 0;
   text-align: center;
-  color: $color-mint-tulip;
+  color: colors.$color-mint-tulip;
 }
 
 h1 {
-  font-family: $font-family-title;
-  font-size: $font-size-extra-large;
+  font-family: fonts.$font-family-title;
+  font-size: fonts.$font-size-extra-large;
   text-align: center;
   text-transform: uppercase;
-  color: $color-skeptic;
-  text-shadow: 0 0 4px rgba($color-mine-shaft, 0.4);
+  color: colors.$color-skeptic;
+  text-shadow: 0 0 4px rgba(colors.$color-mine-shaft, 0.4);
   margin: 0;
 
   & em {
     font-style: normal;
-    color: $color-aqua;
+    color: colors.$color-aqua;
   }
 }
 
@@ -34,7 +37,7 @@ h1 {
   max-width: 60rem;
   margin: 2rem auto;
   padding: 2rem;
-  background: radial-gradient($color-black-bean, $color-black-pearl);
+  background: radial-gradient(colors.$color-black-bean, colors.$color-black-pearl);
   border-radius: 16px;
-  box-shadow: 0 2px 8px rgba($color-black, 0.8);
+  box-shadow: 0 2px 8px rgba(colors.$color-black, 0.8);
 }
