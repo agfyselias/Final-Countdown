@@ -1,14 +1,17 @@
 # ⏱️ The Almost Final Countdown (React + TypeScript + SCSS)
+
 A simple Stopwatch desktop game built with React and TypeScript, effectively utilizing and handling the state functionality. The closer the watch stops to the goal, the higher the score!
 
 ---
 
 # ⚠️ **Disclaimer**:
+
 This project is based on the _"React – The Complete Guide (incl. Redux)"_ course by [Maximilian Schwarzmüller](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).The layout, design and CSS are largely derived from the course materials. All logic and components were re-coded in **TypeScript** and **SCSS** and restructured by me during the learning purposes.
 
 ---
 
 # 🧠 What I Did Differently
+
 - 🔄 **Converted the entire codebase to TypeScript**, also adding mock data, interfaces and enums
 - 🧩 **Refactored component structure**, for better separation of concerns
 - 🧪 **Handled state immutably and predictably**, using modern React practices, like refs and portals
@@ -18,6 +21,7 @@ This project is based on the _"React – The Complete Guide (incl. Redux)"_ cour
 ---
 
 ## 🎮 Features
+
 - ✅ #4 types of timer challenges, with increased difficulty
 - ✅ Editable player name
 - ✅ User score modal
@@ -42,6 +46,7 @@ This project is based on the _"React – The Complete Guide (incl. Redux)"_ cour
 ---
 
 ## 🧱 Component Overview
+
 - **`App.tsx`** – Main layout and state manager
 - **`Player.tsx`** – Editable player name
 - **`ResultsModal.tsx`** – A dialog popup displaying use score and seconds remaining
@@ -50,6 +55,7 @@ This project is based on the _"React – The Complete Guide (incl. Redux)"_ cour
 ---
 
 ## 🛠️ Utilities Overview
+
 - **`TimerChallenges.mock.ts`** – All timer challenges
 - **`TimerChallenge.interface.ts`** – Timer Challenge type
 - **`TimerChallenge.enum.ts`** – Timer Challenge title / difficulty 
