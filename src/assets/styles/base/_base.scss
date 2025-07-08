@@ -1,0 +1,40 @@
+body {
+  font-family: $font-family-common;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient($color-genoa, $color-tiber);
+  color: $color-aqua-haze;
+  min-height: 100vh;
+}
+
+header p {
+  font-size: $font-size-small;
+  margin: 0;
+  text-align: center;
+  color: $color-mint-tulip;
+}
+
+h1 {
+  font-family: $font-family-title;
+  font-size: $font-size-extra-large;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-skeptic;
+  text-shadow: 0 0 4px rgba($color-mine-shaft, 0.4);
+  margin: 0;
+
+  & em {
+    font-style: normal;
+    color: $color-aqua;
+  }
+}
+
+#content {
+  max-width: 60rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: radial-gradient($color-black-bean, $color-black-pearl);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba($color-black, 0.8);
+}
